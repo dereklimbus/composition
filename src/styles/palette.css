@@ -1,0 +1,38 @@
+.basic {
+	align-items: stretch;
+	display: flex;
+}
+
+.full {
+	composes: basic;
+}
+
+@media (orientation: portrait) {
+	.basic {
+		flex-direction: row;
+		height: 12.5vw;
+		max-height: 60px;
+		max-width: 360px;
+    width: 75vw;
+	}
+
+	.full {
+		height: 8.33333vw;
+		max-width: 540px;
+	}
+}
+
+@media (orientation: landscape) {
+	.basic {
+		flex-direction: column;
+		height: 75vh;
+		max-height: 360px;
+		max-width: 60px;
+		width: 12.5vh;
+	}
+
+	.full {
+		width: 8.33333vh;
+		max-height: 540px;
+	}
+}

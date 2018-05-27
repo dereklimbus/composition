@@ -1,0 +1,12 @@
+body {
+  background-color: #e0e0e0;
+  height: 100vh;
+  margin: 0;
+  width: 100vw;
+}
+
+@media (pointer: none)  {
+	body {
+		cursor: pointer;
+	}
+}

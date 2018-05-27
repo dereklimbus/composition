@@ -1,0 +1,42 @@
+export const CANVAS_WINDOW_RATIO = 3 / 4
+export const COLOR = Object.freeze({
+	RED: '#f44336',
+	ORANGE: '#ff9800',
+	YELLOW: '#ffeb3b',
+	GREEN: '#4caf50',
+	BLUE: '#2196f3',
+	INDIGO: '#3f51b5',
+	VIOLET: '#9c27b0',
+	BLACK: '#000000',
+	WHITE: '#ffffff'
+})
+export const BASIC_PALETTE = [
+	COLOR.RED,
+	COLOR.YELLOW,
+	COLOR.GREEN,
+	COLOR.BLUE,
+	COLOR.BLACK,
+	COLOR.WHITE
+]
+export const FULL_PALETTE = [
+  COLOR.RED,
+	COLOR.ORANGE,
+	COLOR.YELLOW,
+	COLOR.GREEN,
+	COLOR.BLUE,
+	COLOR.INDIGO,
+	COLOR.VIOLET,
+	COLOR.BLACK,
+	COLOR.WHITE
+]
+export const INITIAL_COLOR = COLOR.WHITE
+export const MAX_PAINT_DOT_RATIO = 3
+export const MIN_PAINT_DOT_RATIO = 1
+export const MIN_SIDE_DOT_COUNT = 2
+export const MIN_ZOOM_PAN_DELTA = 64
+export const NORMAL_HOVER_RATIO = 2 / 3
+export const TOTAL_SIDE_DOT_COUNT = 128
+export const TOUCH_DOT_MIN_SIDE_LENGTH = 40
+export const WHEEL_DOT_MIN_SIDE_LENGTH = 20
+export const WINDOW_RESIZE_WAIT = 100
+export const ZOOM_PAN_RESET_WAIT = 1000

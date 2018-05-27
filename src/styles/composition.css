@@ -1,0 +1,21 @@
+.basic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+@media (orientation: portrait) {
+  .basic {
+    flex-direction: column;
+    width: 75vw;
+  }
+}
+
+@media (orientation: landscape) {
+  .basic {
+    flex-direction: row;
+    height: 75vh;
+  }
+}

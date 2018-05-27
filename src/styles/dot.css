@@ -1,0 +1,10 @@
+.basic {
+	border-radius: 0;
+}
+
+@media (hover: hover) {
+	.basic:hover {
+		cursor: hand;
+		cursor: pointer;
+	}
+}

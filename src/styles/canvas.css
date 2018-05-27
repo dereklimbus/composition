@@ -1,0 +1,15 @@
+@media (orientation: portrait) {
+  .basic {
+    height: 75vw;
+    margin-bottom: 12.5vw;
+    width: 75vw;
+  }
+}
+
+@media (orientation: landscape) {
+  .basic {
+    height: 75vh;
+    margin-right: 12.5vh;
+    width: 75vh;
+  }
+}
